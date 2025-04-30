@@ -8,6 +8,15 @@ Este proyecto muestra la implementación de Merge Sort en Java de dos formas:
 
 El objetivo es comparar ambos enfoques midiendo tiempos de ejecución y opcionalmente mostrando los arreglos ordenados.
 
+
+### Por qué Merge Sort?
+Merge Sort es un algoritmo eficiente de ordenamiento basado en la estrategia *divide y vencerás*. Se eligió para este proyecto porque:
+
+- **Eficiencia consistente**: garantiza un rendimiento de O(n log n) en todos los casos.
+- **Facilidad de paralelización**: las mitades pueden ordenarse de forma independiente en distintos hilos.
+
+A continuación, se detallan los componentes:
+
 ### Componentes
 
 #### 1. `SequentialSorter` (src/problem/SequentialSorter.java)
